@@ -32,7 +32,7 @@ namespace Tyuiu.SklyarovAM.Sprint1.Task2.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Температура " + x + "К = " + ds.ConvertKelvinToCelsius(x) +"градус(ов) С");
+            Console.WriteLine(ds.ConvertKelvinToCelsius(x));
             Console.ReadKey();
         }
     }
